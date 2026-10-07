@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pytest = "*"
+pytest-html = "*"
+playwright = "*"
+pytest-playwright = "*"
+
+[packages]
+alembic = "*"
+pyyaml = "==5.2"
+python-dotenv = "*"
+pytest-rerunfailures = "*"
+pytest-xdist = "*"
+pytest-json = "*"
+reportlab = "*"
+playwright = "*"
+pyodbc = "*"
+fpdf = "*"
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.7"
